@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b;
+    float c,d;
+   
+    // Read two integers
+    scanf("%d %d", &a, &b);
+    
+    // Read two float numbers
+    scanf("%f %f", &c, &d);
+    
+    // Calculate sum and difference for integers
+    int intSum = a + b;
+    int intDiff = a - b;
+    
+    // Calculate sum and difference for floats
+    float floatSum = c + d ;
+    float floatDiff = c - d ;
+    
+    // Print results
+    printf("%d %d\n", intSum, intDiff);
+    printf("%.1f %.1f\n", floatSum, floatDiff);
+    
+    return 0;
+}
